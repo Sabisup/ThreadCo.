@@ -4,33 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Settings - ThreadCo</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to bottom, #FF8C00, #000);
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .option {
+            font-size: 18px;
+            margin: 15px 0;
+            padding: 10px;
+            background-color: #444;
+            border-radius: 8px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .back {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #666;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
-
-    <header>Settings</header>
-
-    <div class="settings-container">
-        <div class="settings-option">
-            <h3>Profile</h3>
-            <button>Edit Profile</button>
-        </div>
-
-        <div class="settings-option">
-            <h3>Credits</h3>
-            <button>View Credits</button>
-        </div>
-
-        <div class="settings-option">
-            <h3>Returns/Exchange</h3>
-            <button>Return Product</button>
-        </div>
-
-        <div class="settings-option">
-            <h3>Customer Support</h3>
-            <p>For queries, email us at <strong>threadco@gmail.com</strong></p>
-        </div>
+    <div class="container">
+        <h1>Settings</h1>
+        <div class="option"><a href="#">Credits</a></div>
+        <div class="option"><a href="#">Returns / Exchanges</a></div>
+        <div class="option"><a href="mailto:threadco@gmail.com">Customer Support (threadco@gmail.com)</a></div>
+        <a href="index.html" class="back">Back to Home</a>
     </div>
-
 </body>
 </html>
